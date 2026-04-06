@@ -1,0 +1,19 @@
+{
+  "name": "lehrer-tools",
+  "owner": {
+    "name": "lehrer-tools"
+  },
+  "metadata": {
+    "description": "Plugins für Lehrkräfte an allgemeinbildenden Schulen"
+  },
+  "plugins": [
+    {
+      "name": "lehrer-agent",
+      "source": {
+        "source": "github",
+        "repo": "lehrer-tools/lehrer-agent"
+      },
+      "description": "Unterricht planen, Tests erstellen, Material sammeln, Verwaltungsvorschriften nachschlagen"
+    }
+  ]
+}
